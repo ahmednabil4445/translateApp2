@@ -1,0 +1,110 @@
+.translation-app {
+  font-family: Arial, sans-serif;
+  top: 0;
+  left: 0;
+  min-width: 65%;
+  background-color: rgba(249, 249, 249, -0.1); /* Adjust the transparency here */
+  color: black;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.search-bar,
+.select-translate {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.search-input,
+.select-box {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  color: #333;
+  width: 300px;
+  margin-right: 10px;
+  flex: 1;
+}
+
+.translate-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.translate-btn:hover {
+  background-color: #0056b3;
+}
+
+.translated-words {
+  background-color: #fff;
+  color: #333;
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.word-details {
+  padding: 15px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.word-details:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.word-details p {
+  margin: 8px 0;
+}
+
+strong {
+  font-weight: bold;
+}
+/* Add these styles to your TranslationApp.css file */
+
+.translated-words table {
+  width: 98%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.translated-words th,
+.translated-words td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.translated-words th {
+  background-color: #007bff;
+  color: white;
+}
+
+.translated-words tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.translated-words tbody tr:hover {
+  background-color: #e0e0e0;
+}
